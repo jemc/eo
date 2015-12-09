@@ -4,7 +4,7 @@
 
 use "time"
 
-trait LogLevel val
+trait val LogLevel
   fun tag value(): U8
   fun tag string(): String
 

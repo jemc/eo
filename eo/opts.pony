@@ -4,7 +4,7 @@
 
 use o = "options"
 
-class Opts val
+class val Opts
   var service:   Bool   = false
   var get:       Bool   = false
   var host:      String = "localhost"

@@ -4,10 +4,10 @@
 
 use "collections"
 
-interface StorageFetchSuccessLambda iso
+interface iso StorageFetchSuccessLambda
   fun ref apply(sender: String, message: String) => None
 
-interface StorageFetchFailureLambda iso
+interface iso StorageFetchFailureLambda
   fun ref apply() => None
 
 actor Storage
